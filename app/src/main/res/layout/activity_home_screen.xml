@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    android:weightSum="6"
+    android:background="@android:color/black"
+    android:padding="15dp"
+    android:gravity="center">
+    <LinearLayout
+        android:layout_weight="5"
+        android:layout_width="match_parent"
+        android:weightSum="7.5"
+        android:orientation="vertical"
+        android:layout_height="0dp">
+
+<LinearLayout
+    android:layout_weight="2"
+    android:weightSum="2"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="0dp">
+    <ImageButton
+        android:background="@color/yello"
+        android:id="@+id/learn"
+
+        android:src="@drawable/learn"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_marginRight="2.5dp"
+        android:scaleType="centerInside"
+        android:layout_height="match_parent" />
+    <ImageButton
+        android:id="@+id/play"
+android:layout_marginLeft="2.5dp"
+        android:scaleType="centerInside"
+        android:background="@color/pink"
+        android:src="@drawable/bulb"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent" />
+</LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_weight="0.5"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+            <TextView
+                android:layout_width="0dp"
+                android:text="Learn"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="15sp"
+                android:background="@android:color/black"
+                android:textColor="@android:color/white"
+                android:layout_weight="0.5"
+                android:layout_height="match_parent" />
+            <TextView
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="15sp"
+                android:layout_width="0dp"
+                android:text="Test your skill"
+                android:background="@android:color/black"
+                android:textColor="@android:color/white"
+                android:layout_weight="0.5"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+    <LinearLayout
+        android:weightSum="2"
+        android:layout_weight="2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <ImageButton
+            android:layout_marginRight="2.5dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/score"
+            android:background="@color/green"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"/>
+
+        <ImageButton
+            android:text="test"
+            android:layout_marginLeft="2.5dp"
+            android:scaleType="centerInside"
+            android:background="#E64A19"
+            android:src="@drawable/yt"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_weight="0.5"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+            <TextView
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="15sp"
+                android:layout_width="0dp"
+                android:text="Highest Score"
+                android:background="@android:color/black"
+                android:textColor="@android:color/white"
+                android:layout_weight="0.5"
+                android:layout_height="match_parent" />
+            <TextView
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="15sp"
+                android:layout_width="0dp"
+                android:text="Our YouTube Channel"
+                android:background="@android:color/black"
+                android:textColor="@android:color/white"
+                android:layout_weight="0.5"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+    <LinearLayout
+        android:weightSum="2"
+    android:layout_weight="2"
+    android:layout_width="match_parent"
+    android:layout_height="0dp">
+        <ImageButton
+            android:layout_marginRight="2.5dp"
+            android:scaleType="centerInside"
+            android:background="#9fa8da"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:src="@drawable/ps"
+            android:layout_height="match_parent" />
+        <ImageButton
+            android:id="@+id/aboutus"
+            android:layout_marginLeft="2.5dp"
+            android:src="@drawable/about"
+            android:scaleType="centerInside"
+            android:background="#bdbdbd"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+</LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_weight="0.5"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+            <TextView
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="15sp"
+                android:layout_width="0dp"
+                android:text="Our Store App"
+                android:background="@android:color/black"
+                android:textColor="@android:color/white"
+                android:layout_weight="0.5"
+                android:layout_height="match_parent" />
+            <TextView
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="15sp"
+                android:layout_width="0dp"
+                android:text="About Us"
+                android:background="@android:color/black"
+                android:textColor="@android:color/white"
+                android:layout_weight="0.5"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/lco_ad"
+        android:layout_weight="0.5"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:src="@drawable/course"
+        />
+</LinearLayout>
